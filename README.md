@@ -14,7 +14,7 @@ step** and no dependencies. The only external asset is the Lingopie logo in `ass
 ## Flow
 
 1. **Hook** — headline + promise + Start
-2. **Q1 Language** — Spanish / French / Italian / German / Korean (also the `?lang=` deep-link entry)
+2. **Q1 Language** — Spanish / French / Italian / German (also the `?lang=` deep-link entry)
 3. **Q2 Streaming habit** — anchors Lingopie to a habit they already have
 4. **Q3 Episodes / week** — drives the dynamic word-count projection
 5. **Q4 Past blocker** — surfaces the objection so we can dissolve it
@@ -41,7 +41,6 @@ and starts at Q2.
 
 - `WORDS_PER_EPISODE` — Q3 projections (~600 / ~1,800 / ~3,600 per month) are the
   brief's placeholder figures; replace with the real number.
-- Korean recommended show is set to **Squid Game** (placeholder).
 - European Listings logo is a script-font recreation; swap in the official asset when available.
 
 ## Local preview

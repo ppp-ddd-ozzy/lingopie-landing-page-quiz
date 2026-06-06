@@ -183,7 +183,7 @@
   .confetti i { position:absolute; top:-12px; width:9px; height:14px; opacity:.9; animation:fall linear forwards; }
   @keyframes fall { to { transform:translateY(105vh) rotate(720deg); opacity:0; } }
 
-  @media (min-width:600px) { .lang-grid { grid-template-columns:repeat(5,1fr); } .stats { grid-template-columns:repeat(4,1fr); } }
+  @media (min-width:600px) { .lang-grid { grid-template-columns:repeat(4,1fr); } .stats { grid-template-columns:repeat(4,1fr); } }
   @media (min-width:760px) {
     #step-checkout { max-width:1000px; }
     .plans { grid-template-columns:repeat(3,1fr); align-items:stretch; }
@@ -295,13 +295,12 @@
 const CHECKOUT_URL = 'https://lingopie.com/app/registration/checkout/glb46yeauk/433';
 const LOGIN_URL    = 'https://www.lingopie.com/login';
 
-// Recommended show per language. NOTE: Korean show ("Squid Game") is a placeholder — confirm with Pedro.
+// Recommended show per language.
 const LANGUAGES = {
   es: { name:'Spanish',  flag:'🇪🇸', show:'Money Heist', hook:'Great pick — Spanish has 1,200+ hours of real shows on Lingopie.' },
   fr: { name:'French',   flag:'🇫🇷', show:'Lupin',       hook:'Nice — dive into French with real films and series, not flashcards.' },
   it: { name:'Italian',  flag:'🇮🇹', show:'Suburra',     hook:'Bellissimo — learn Italian the way Italians actually talk.' },
   de: { name:'German',   flag:'🇩🇪', show:'Dark',        hook:'Strong choice — German clicks faster when it’s real dialogue.' },
-  ko: { name:'Korean',   flag:'🇰🇷', show:'Squid Game',  hook:'K-drama fans learn fastest — Korean is one of our top languages.' },
 };
 
 /* Word projections per Q3 answer. These mirror the figures in the brief and are
